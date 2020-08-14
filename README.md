@@ -12,18 +12,18 @@ High-temperature weather conditions induce geometrical distortions in images whi
 ```  
 | 
 └───train
-│   └───dataset.py -- Dataloader script for Cityscapes
-│   └───erfnet.py  -- Network structure for ErfNet
+│   └───dataset.py         -- Dataloader script for Cityscapes
+│   └───erfnet.py          -- Network structure for ErfNet
 │   └───erfnet_imagenet.py -- Learning the initial weights for ErfNet
-│   └───fill_weights.py -- Class weights and ErfNet Network weights
-│   └───iFL.py -- Iterative focal loss for the feedback framework.
-│   └───Interp.py -- Layer that warps the input image to get final restored image.
-│   └───iouEval.py -- Evaluation of the model
-│   └───main.py -- main driver programme
-│   └───run_pretrained.py -- script to run the pre-trained models that outputs mIoU and segmentation results.
-│   └───transform.py -- transform the segmentation output in original cityscapes color.
-│   └───unet_model.py -- modified unet module that takes the feedback 
-│   └───utils.py -- tranformation input and saving checkpoints
+│   └───fill_weights.py    -- Class weights and ErfNet Network weights
+│   └───iFL.py             -- Iterative focal loss for the feedback framework.
+│   └───Interp.py          -- Layer that warps the input image to get final restored image.
+│   └───iouEval.py         -- Evaluation of the model
+│   └───main.py            -- Main driver programme
+│   └───run_pretrained.py  -- Script to run the pre-trained models that outputs mIoU and segmentation results.
+│   └───transform.py       -- Transform the segmentation output in original cityscapes color.
+│   └───unet_model.py      -- Modified unet module that takes the feedback 
+│   └───utils.py           -- Tranformation input and saving checkpoints
 └───val
 │   └───gt
 │   └───images
