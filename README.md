@@ -7,6 +7,7 @@ High-temperature weather conditions induce geometrical distortions in images whi
 * numpy
 * tqdm
 * torchvision ==0.2.0
+* Matlab
 ## Code Structure and Summary
 
 ```  
@@ -24,19 +25,19 @@ High-temperature weather conditions induce geometrical distortions in images whi
 │   └───transform.py       -- Transform the segmentation output in original cityscapes color.
 │   └───unet_model.py      -- Modified unet module that takes the feedback 
 │   └───utils.py           -- Tranformation input and saving checkpoints
-└───val
-│   └───gt
-│   └───images
-└───train_crops       # created by script
-│   └───gt
-│   └───images
-└───val_crops         # created by script
-│   └───gt
-│   └───images
+└───trained_models
+│   └───erfnet_encoder_pretrained.pth.tar  --Pretrained Encoder
+│   └───erfnet_pretrained.pth              --Pretrained Network
 ```
 ## Dataset Generation
+* Download the cityscapes dataset [[Link]](https://www.cityscapes-dataset.com/) and simulation code in matlab from the [[Link]]https://webee.technion.ac.il/~yoav/research/turbulence_distortion.html
+
+* Run the matlab code using the parameter given in paper to generate the turbulent dataset.
 ## Training
 ## Pretrained Models
+* Pre-Trained Restoration Model [[Model]](https://drive.google.com/file/d/1AJznWOOuKW8lR-q3_qbdn0OGOTXU8LBk/view?usp=sharing)
+* Pre-Trained Segmentation Model [[Model]](https://drive.google.com/file/d/1_shJu5F9bR3FW5Df9Wt0D6915EVRzJfQ/view?usp=sharing)
+* Command to run:
 ## Results
 
 ![Drag Racing](result.png)
