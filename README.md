@@ -30,7 +30,7 @@ High-temperature weather conditions induce geometrical distortions in images whi
 │   └───erfnet_pretrained.pth              --Pretrained Network
 ```
 ## Dataset Generation
-* Download the cityscapes dataset [[Link]](https://www.cityscapes-dataset.com/) and simulation code in matlab from the [[Link]]https://webee.technion.ac.il/~yoav/research/turbulence_distortion.html
+* Download the cityscapes dataset [[Link]](https://www.cityscapes-dataset.com/) and simulation code in matlab from the [[Link]](https://webee.technion.ac.il/~yoav/research/turbulence_distortion.html)
 
 * Run the matlab code using the parameter given in paper to generate the turbulent dataset.
 ## Training
