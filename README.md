@@ -58,7 +58,7 @@ python run_pretrained.py --savedir . --pretrainedEncoder '/path_to_model/trained
 ```
 ## Results
 
-![Drag Racing](result.png)
+![Drag Racing](results.png)
 
 
 ### Contact
