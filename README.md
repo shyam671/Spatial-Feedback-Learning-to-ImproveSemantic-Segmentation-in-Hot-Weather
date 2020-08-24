@@ -37,7 +37,9 @@ High-temperature weather conditions induce geometrical distortions in images whi
 ## Pretrained Models
 * Pre-Trained Restoration Model [[Model]](https://drive.google.com/file/d/1AJznWOOuKW8lR-q3_qbdn0OGOTXU8LBk/view?usp=sharing)
 * Pre-Trained Segmentation Model [[Model]](https://drive.google.com/file/d/1_shJu5F9bR3FW5Df9Wt0D6915EVRzJfQ/view?usp=sharing)
-* Command to run:
+```
+python run_pretrained.py --savedir . --pretrainedEncoder '/path_to_model/trained_models/erfnet_encoder_pretrained.pth.tar'
+```
 ## Results
 
 ![Drag Racing](result.png)
