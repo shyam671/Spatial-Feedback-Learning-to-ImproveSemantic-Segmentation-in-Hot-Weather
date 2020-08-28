@@ -60,6 +60,9 @@ python run_pretrained.py --savedir . --pretrainedEncoder '/path_to_model/trained
 
 ![Drag Racing](results.png)
 
-
+### Acknowledgement 
+Our code is borrowed from following repositories:
+* https://github.com/Eromera/erfnet_pytorch
+* https://github.com/jaxony/unet-pytorch
 ### Contact
 shyam.nandan@research.iiit.ac.in 
